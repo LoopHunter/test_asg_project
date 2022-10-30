@@ -1,0 +1,18 @@
+{
+    "apps":[
+        {
+            "name":"users_s",
+            // "cwd": "/home/ec2-user/test_users",
+            "script":"./index.js",
+            "watch":"true",
+            "ingore_watch":["node_module","public"],
+            "instances": 1,
+            "exec_mode": "fork",
+            "env":{
+                "PORT":3003,
+                "OUTPUT":"Lusers_service"
+            }
+
+        }
+    ]
+}
