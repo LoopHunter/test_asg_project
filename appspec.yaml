@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-users
+    destination: /home/ec2-users/test_asg_project
     overwrite: true
 hooks:
   BeforeInstall:
