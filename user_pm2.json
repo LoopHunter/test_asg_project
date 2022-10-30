@@ -9,8 +9,8 @@
             "instances": 1,
             "exec_mode": "fork",
             "env":{
-                "PORT":3003,
-                "OUTPUT":"Lusers_service"
+                "PORT":3001,
+                "OUTPUT":"users_service"
             }
 
         }
