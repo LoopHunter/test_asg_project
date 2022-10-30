@@ -6,7 +6,7 @@ const app = express();
 
 // main
 app.get('/', (req, res) => {
-    return res.status(200).json({ status: 'success', data: `${output} is working fine V2` });
+    return res.status(200).json({ status: 'success', data: `${output} is working fine V3` });
 });
 
 // health check
